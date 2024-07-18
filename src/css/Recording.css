@@ -1,0 +1,48 @@
+/* Recording.css */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* This makes the content container take up the full viewport height */
+}
+
+.word {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* This ensures the word container takes up the full height of the content container */
+}
+
+.btnsRec {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 1rem;
+  /* margin-bottom: 1rem; */
+  left: 50%;
+  transform: translateX(-50%);
+  gap: 1rem;
+  font-family: monospace;
+}
+
+.displayedWord{
+    font-size: 2rem;
+}
+
+.btnRec{
+    padding: 10px 20px;
+    font-size: 32px;
+    cursor: pointer;
+    border: none;
+    border-radius: 1000000000000px;
+    /* shape-outside: circle(100%); */
+    background: #d2d2d2;
+    color:rgb(0, 0, 0);
+}
+
+.btnRec:hover{
+    background: #b9b9b9;
+    color:white;
+}
