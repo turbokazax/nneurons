@@ -23,13 +23,13 @@ function App() {
 
   return (
     <div className="App">
-      <nav className={isNavVisible ? "nav-visible" : "nav-invisible"}>
+      {/* <nav className={isNavVisible ? "nav-visible" : "nav-invisible"}>
         <div>
           <Link to="/">Login</Link>
           <Link to="/intro">Intro</Link>
           <Link to="/recording">Recording</Link>
         </div>
-      </nav>
+      </nav> */}
       <div className="main-content">
         <Routes>
           <Route path="/" element={<Login />} />
